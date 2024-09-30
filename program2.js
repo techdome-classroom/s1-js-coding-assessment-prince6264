@@ -22,9 +22,9 @@ var romanToInt = function(s) {
         
         
         if (i < length - 1 && romanMap[s[i]] < romanMap[s[i + 1]]) {
-            total -= value;  // Subtract if the next numeral is larger
+            total -= value; 
         } else {
-            total += value;  // Otherwise, add the value
+            total += value;  
         }
     }
     
