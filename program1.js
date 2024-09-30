@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    // Mapping of closing brackets to opening brackets
+    
     const bracketMap = {
         ')': '(',
         '}': '{',
