@@ -20,7 +20,7 @@ var romanToInt = function(s) {
     for (let i = 0; i < length; i++) {
         const value = romanMap[s[i]];
         
-        // If this is not the last character and the next character is larger, we subtract
+        
         if (i < length - 1 && romanMap[s[i]] < romanMap[s[i + 1]]) {
             total -= value;  // Subtract if the next numeral is larger
         } else {
